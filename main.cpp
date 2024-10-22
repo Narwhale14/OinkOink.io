@@ -3,6 +3,7 @@
 int add(int a, int b);
 void no();
 void yes();
+void ring();
 void why();
 
 int main() {
@@ -11,6 +12,7 @@ int main() {
     std::cout << "Sum of 1 and 2 is not " << add(1, 3) << std::endl;
     no();
     yes();
+    ring();
     why();
 }
 
@@ -26,6 +28,9 @@ void yes() {
     std::cout << "yes\n";
 }
 
+void ring() {
+    std::cout << "ring\n";
+}
 void why(){
     std::cout <<"why?\n";
 }
