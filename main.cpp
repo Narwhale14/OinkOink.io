@@ -4,6 +4,7 @@ int add(int a, int b);
 void no();
 void yes();
 void ring();
+void why();
 
 int main() {
     std::cout << "Hello world!\n";
@@ -12,6 +13,7 @@ int main() {
     no();
     yes();
     ring();
+    why();
 }
 
 int add(int a, int b) {
@@ -28,4 +30,7 @@ void yes() {
 
 void ring() {
     std::cout << "ring\n";
+}
+void why(){
+    std::cout <<"why?\n";
 }
